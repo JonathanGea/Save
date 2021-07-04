@@ -76,13 +76,13 @@ void tampil(void)
     glVertex3f(30.0, 0.0, -40.0);
     glEnd();
     // depan kiri
-    glBegin(GL_QUADS);
+    /*glBegin(GL_QUADS);
     glColor3f(0.0, 0.0, 1.0);
     glVertex3f(-30.0, 0.0, 23.0);
     glVertex3f(-30.0, 40.0, 23.0);
     glVertex3f(0.0, 40.0, 23.0);
     glVertex3f(0.0, 0.0, 23.0);
-    glEnd();
+    glEnd();*/
     // depan kanan
     glBegin(GL_QUADS);
     glColor3f(0.0, 0.0, 1.0);
